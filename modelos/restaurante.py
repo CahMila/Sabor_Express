@@ -1,6 +1,6 @@
 from modelos.avaliacao import Avaliacao
 class Restaurante:
-    restaurantes = []
+    restaurantes = [] #
 
     def __init__(self, nome, categoria): #metodo construtor com parametros
         self._nome = nome.title()
